@@ -1,0 +1,598 @@
+{
+  "attributes": {
+    "twx-widget": "",
+    "widget-id": "view-1",
+    "widget-name": "view-1",
+    "is-widget-container": "true",
+    "viewtype": "ar"
+  },
+  "children": [
+    {
+      "name": "twx-container-content",
+      "children": [
+        {
+          "attributes": {
+            "twx-widget": "",
+            "widget-id": "3DContainer-1",
+            "widget-name": "3D Container",
+            "is-widget-container": "true",
+            "enabletrackingevents": "true"
+          },
+          "name": "twx-dt-view",
+          "children": [
+            {
+              "name": "twx-container-content",
+              "children": [
+                {
+                  "attributes": {
+                    "twx-widget": "",
+                    "widget-id": "model-1",
+                    "widget-name": "model-1",
+                    "is-widget-container": "true",
+                    "src": "Uploaded/RobotArm_Animated.pvz",
+                    "scale": "1.5000",
+                    "x": "-0.5392",
+                    "y": "-0.4570",
+                    "z": "-0.4275",
+                    "rx": "0.00",
+                    "ry": "0.00",
+                    "rz": "-0.00",
+                    "sequence": "Uploaded/l-Creo 3D - Figure 1.pvi"
+                  },
+                  "name": "twx-dt-model",
+                  "children": [
+                    {
+                      "name": "twx-container-content"
+                    }
+                  ]
+                },
+                {
+                  "attributes": {
+                    "twx-widget": "",
+                    "widget-id": "3DVideo-1",
+                    "hide-controls": "false",
+                    "video-width": "1920",
+                    "video-height": "1040",
+                    "widget-name": "3DVideo-1",
+                    "src": "Uploaded/AI Video.mp4",
+                    "height": "0.400",
+                    "width": "0.495",
+                    "preload": "true",
+                    "x": "0.8353",
+                    "y": "0.7640",
+                    "z": "-0.5320",
+                    "rx": "180.00",
+                    "ry": "-0.00",
+                    "rz": "180.00",
+                    "tagalong": "true"
+                  },
+                  "name": "twx-dt-3dvideo",
+                  "children": [
+                    {
+                      "attributes": {
+                        "databind-id": "db-1676422073658",
+                        "source-type": "data",
+                        "source-name": "helpBool",
+                        "source-item-type": "value",
+                        "source-item-name": "helpBool",
+                        "binding-type": "custom_field",
+                        "from-expression": "app.params['helpBool']",
+                        "to-property": "visible"
+                      },
+                      "name": "twx-databind"
+                    }
+                  ]
+                },
+                {
+                  "attributes": {
+                    "twx-widget": "",
+                    "widget-id": "3DLabel-1",
+                    "state-format-value": "text",
+                    "font-color": "white",
+                    "widget-name": "StepCounter",
+                    "is-widget-container": "true",
+                    "text": "StepNumber",
+                    "scale": "1.0000",
+                    "x": "0.3364",
+                    "y": "0.0733",
+                    "z": "-0.0086",
+                    "rx": "0.00",
+                    "ry": "90.00",
+                    "rz": "0.00"
+                  },
+                  "name": "twx-dt-label",
+                  "children": [
+                    {
+                      "attributes": {
+                        "databind-id": "db-1676073443219",
+                        "source-type": "data",
+                        "source-name": "currentStep",
+                        "source-item-type": "value",
+                        "source-item-name": "currentStep",
+                        "binding-type": "custom_field",
+                        "from-expression": "app.params['currentStep']",
+                        "to-property": "text"
+                      },
+                      "name": "twx-databind"
+                    },
+                    {
+                      "name": "twx-container-content"
+                    }
+                  ]
+                },
+                {
+                  "attributes": {
+                    "twx-widget": "",
+                    "widget-id": "PanelViewDisplay",
+                    "widget-name": "PanelViewDisplay",
+                    "is-widget-container": "true",
+                    "src": "Uploaded/PanleView.png",
+                    "scale": "1.0000",
+                    "x": "0.8751",
+                    "y": "1.1745",
+                    "z": "-0.5153",
+                    "rx": "180.00",
+                    "ry": "-0.00",
+                    "rz": "180.00"
+                  },
+                  "name": "twx-dt-image",
+                  "children": [
+                    {
+                      "name": "twx-container-content"
+                    }
+                  ]
+                },
+                {
+                  "attributes": {
+                    "twx-widget": "",
+                    "widget-id": "3DLabel-4",
+                    "state-format-value": "text",
+                    "widget-name": "StepTitle_Label",
+                    "is-widget-container": "true",
+                    "text": "Step Title:",
+                    "scale": "1.0000",
+                    "x": "1.0350",
+                    "y": "1.2844",
+                    "z": "-0.5248",
+                    "rx": "180.00",
+                    "ry": "-0.00",
+                    "rz": "180.00"
+                  },
+                  "name": "twx-dt-label",
+                  "children": [
+                    {
+                      "name": "twx-container-content"
+                    }
+                  ]
+                },
+                {
+                  "attributes": {
+                    "twx-widget": "",
+                    "widget-id": "3DLabel-5",
+                    "state-format-value": "text",
+                    "widget-name": "StepDisplay_Label",
+                    "is-widget-container": "true",
+                    "text": "Label",
+                    "scale": "1.0000",
+                    "x": "0.8768",
+                    "y": "1.1814",
+                    "z": "-0.5157",
+                    "rx": "180.00",
+                    "ry": "0.00",
+                    "rz": "180.00"
+                  },
+                  "name": "twx-dt-label",
+                  "children": [
+                    {
+                      "attributes": {
+                        "databind-id": "db-1676075336168",
+                        "source-type": "data",
+                        "source-name": "stepTitle",
+                        "source-item-type": "value",
+                        "source-item-name": "stepTitle",
+                        "binding-type": "custom_field",
+                        "from-expression": "app.params['stepTitle']",
+                        "to-property": "text"
+                      },
+                      "name": "twx-databind"
+                    },
+                    {
+                      "name": "twx-container-content"
+                    }
+                  ]
+                },
+                {
+                  "attributes": {
+                    "twx-widget": "",
+                    "widget-id": "cautionStrip1",
+                    "widget-name": "cautionStrip1",
+                    "is-widget-container": "true",
+                    "src": "Uploaded/SafetyBanner.png",
+                    "height": "0.1",
+                    "width": "1",
+                    "scale": "1.0000",
+                    "x": "0.5628",
+                    "y": "0.4043",
+                    "z": "-0.0179",
+                    "rx": "0.00",
+                    "ry": "90.00",
+                    "rz": "0.00"
+                  },
+                  "name": "twx-dt-image",
+                  "children": [
+                    {
+                      "name": "twx-container-content"
+                    }
+                  ]
+                },
+                {
+                  "attributes": {
+                    "twx-widget": "",
+                    "widget-id": "cautionStrip2",
+                    "widget-name": "CautionStripe_Image",
+                    "is-widget-container": "true",
+                    "src": "Uploaded/SafetyBanner.png",
+                    "height": "0.1",
+                    "width": "1.5",
+                    "scale": "1.0000",
+                    "x": "-0.1839",
+                    "y": "0.4043",
+                    "z": "-0.5174",
+                    "rx": "180.00",
+                    "ry": "-0.00",
+                    "rz": "180.00"
+                  },
+                  "name": "twx-dt-image",
+                  "children": [
+                    {
+                      "name": "twx-container-content"
+                    }
+                  ]
+                },
+                {
+                  "attributes": {
+                    "twx-widget": "",
+                    "widget-id": "cautionStrip4",
+                    "widget-name": "CautionStripe_Image",
+                    "is-widget-container": "true",
+                    "src": "Uploaded/SafetyBanner.png",
+                    "height": "0.1",
+                    "width": "1.5",
+                    "scale": "1.0000",
+                    "x": "-0.1841",
+                    "y": "0.4043",
+                    "z": "0.4824",
+                    "rx": "0.00",
+                    "ry": "0.00",
+                    "rz": "0.00"
+                  },
+                  "name": "twx-dt-image",
+                  "children": [
+                    {
+                      "name": "twx-container-content"
+                    }
+                  ]
+                },
+                {
+                  "attributes": {
+                    "twx-widget": "",
+                    "widget-id": "cautionStrip3",
+                    "widget-name": "CautionStripe_Image",
+                    "is-widget-container": "true",
+                    "src": "Uploaded/SafetyBanner.png",
+                    "height": "0.1",
+                    "width": "1",
+                    "scale": "1.0000",
+                    "x": "-0.9277",
+                    "y": "0.4043",
+                    "z": "-0.0179",
+                    "rx": "0.00",
+                    "ry": "90.00",
+                    "rz": "0.00"
+                  },
+                  "name": "twx-dt-image",
+                  "children": [
+                    {
+                      "name": "twx-container-content"
+                    }
+                  ]
+                },
+                {
+                  "attributes": {
+                    "twx-widget": "",
+                    "widget-id": "StandHereSign",
+                    "widget-name": "StandHereSign",
+                    "is-widget-container": "true",
+                    "src": "Uploaded/StandHereSign.png",
+                    "scale": "0.3000",
+                    "x": "-0.1680",
+                    "y": "0.0000",
+                    "z": "-0.9854",
+                    "rx": "90.00",
+                    "ry": "-0.00",
+                    "rz": "180.00",
+                    "visible": "false"
+                  },
+                  "name": "twx-dt-image",
+                  "children": [
+                    {
+                      "name": "twx-container-content"
+                    }
+                  ]
+                },
+                {
+                  "attributes": {
+                    "twx-widget": "",
+                    "widget-id": "wayfinder-1",
+                    "ribbon-color": "#00FF00",
+                    "show-labels": "false",
+                    "waypoints-data": "[{\"position\":{\"x\":-0.1902,\"y\":0,\"z\":-0.9795},\"gaze\":{\"x\":0,\"y\":-1,\"z\":-2.220446049250313e-16},\"up\":{\"x\":0,\"y\":1,\"z\":0},\"eventRadius\":0.25,\"wayfinderDisplayBoundary\":0.5,\"label\":\"Waypoint 1\"}]",
+                    "widget-name": "wayfinder-1",
+                    "is-widget-container": "true"
+                  },
+                  "name": "twx-dt-wayfinder",
+                  "children": [
+                    {
+                      "name": "twx-container-content",
+                      "children": [
+                        {
+                          "attributes": {
+                            "twx-widget": "",
+                            "widget-id": "waypoint-1",
+                            "label-text": "Waypoint 1",
+                            "show-label": "false",
+                            "widget-name": "waypoint-1",
+                            "scale": "2.767317182595334",
+                            "x": "-0.1902",
+                            "y": "0.0000",
+                            "z": "-0.9795",
+                            "rx": "-90.00",
+                            "ry": "0.00",
+                            "rz": "0.00"
+                          },
+                          "name": "twx-dt-waypoint"
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "attributes": {
+                    "twx-widget": "",
+                    "widget-id": "PartLabel1",
+                    "widget-name": "PartLabel1",
+                    "is-widget-container": "true",
+                    "src": "Uploaded/Label_Part_1.png",
+                    "scale": "0.6000",
+                    "x": "0.3353",
+                    "y": "1.2058",
+                    "z": "-0.0089",
+                    "rx": "180.00",
+                    "ry": "-5.47",
+                    "rz": "180.00"
+                  },
+                  "name": "twx-dt-image",
+                  "children": [
+                    {
+                      "name": "twx-container-content"
+                    }
+                  ]
+                },
+                {
+                  "attributes": {
+                    "twx-widget": "",
+                    "widget-id": "PartLabel3",
+                    "widget-name": "PartLabel3",
+                    "is-widget-container": "true",
+                    "src": "Uploaded/Lable_Part_3.png",
+                    "scale": ".6",
+                    "x": "-1.5433",
+                    "y": "1.1632",
+                    "z": "0.1710",
+                    "rx": "180.00",
+                    "ry": "-5.47",
+                    "rz": "180.00"
+                  },
+                  "name": "twx-dt-image",
+                  "children": [
+                    {
+                      "name": "twx-container-content"
+                    }
+                  ]
+                },
+                {
+                  "attributes": {
+                    "twx-widget": "",
+                    "widget-id": "PartLabel2",
+                    "widget-name": "PartLabel2",
+                    "is-widget-container": "true",
+                    "src": "Uploaded/Lable_Part_2.png",
+                    "scale": ".6",
+                    "x": "-0.5764",
+                    "y": "1.4142",
+                    "z": "0.0784",
+                    "rx": "180.00",
+                    "ry": "-5.47",
+                    "rz": "180.00"
+                  },
+                  "name": "twx-dt-image",
+                  "children": [
+                    {
+                      "name": "twx-container-content"
+                    }
+                  ]
+                },
+                {
+                  "attributes": {
+                    "twx-widget": "",
+                    "widget-id": "partLine1",
+                    "widget-name": "partLine1",
+                    "is-widget-container": "true",
+                    "src": "Uploaded/DottedLine.png",
+                    "width": "1.2",
+                    "scale": "0.5000",
+                    "x": "0.2281",
+                    "y": "0.8924",
+                    "z": "0.0015",
+                    "rx": "-175.00",
+                    "ry": "2.22",
+                    "rz": "66.00"
+                  },
+                  "name": "twx-dt-image",
+                  "children": [
+                    {
+                      "name": "twx-container-content"
+                    }
+                  ]
+                },
+                {
+                  "attributes": {
+                    "twx-widget": "",
+                    "widget-id": "partLine2",
+                    "widget-name": "partLine2",
+                    "is-widget-container": "true",
+                    "src": "Uploaded/DottedLine.png",
+                    "width": "1.2",
+                    "scale": "0.5000",
+                    "x": "-0.5379",
+                    "y": "1.1250",
+                    "z": "0.0749",
+                    "rx": "-174.61",
+                    "ry": "-0.94",
+                    "rz": "99.76"
+                  },
+                  "name": "twx-dt-image",
+                  "children": [
+                    {
+                      "name": "twx-container-content"
+                    }
+                  ]
+                },
+                {
+                  "attributes": {
+                    "twx-widget": "",
+                    "widget-id": "partLine3",
+                    "widget-name": "partLine3",
+                    "is-widget-container": "true",
+                    "src": "Uploaded/DottedLine.png",
+                    "width": "1.2",
+                    "scale": "0.5000",
+                    "x": "-1.1416",
+                    "y": "0.9675",
+                    "z": "0.1327",
+                    "rx": "-176.12",
+                    "ry": "-3.86",
+                    "rz": "134.69"
+                  },
+                  "name": "twx-dt-image",
+                  "children": [
+                    {
+                      "name": "twx-container-content"
+                    }
+                  ]
+                },
+                {
+                  "attributes": {
+                    "twx-widget": "",
+                    "widget-id": "3DGauge-1",
+                    "state-format-value": "text",
+                    "widget-name": "3DGauge-1",
+                    "is-widget-container": "true",
+                    "src": "Default/vu_gauge1.svg",
+                    "fontsize": "80px",
+                    "textattrs": "fill:rgba(255, 255, 255, 1);textbaseline:middle;textalign:center",
+                    "textx": "128",
+                    "texty": "188",
+                    "scale": "1.0000",
+                    "x": "-0.8095",
+                    "y": "0.1227",
+                    "z": "-0.0000",
+                    "rx": "180.00",
+                    "ry": "0.00",
+                    "rz": "0.00",
+                    "canvasheight": "256",
+                    "canvaswidth": "256",
+                    "billboard": "true"
+                  },
+                  "name": "twx-dt-sensor",
+                  "children": [
+                    {
+                      "name": "twx-container-content"
+                    }
+                  ]
+                },
+                {
+                  "attributes": {
+                    "twx-widget": "",
+                    "widget-id": "3DGauge-2",
+                    "state-format-value": "text",
+                    "widget-name": "3DGauge-2",
+                    "is-widget-container": "true",
+                    "src": "Default/vu_gauge1.svg",
+                    "fontsize": "80px",
+                    "textattrs": "fill:rgba(255, 255, 255, 1);textbaseline:middle;textalign:center",
+                    "textx": "128",
+                    "texty": "188",
+                    "scale": "1.0000",
+                    "x": "-0.5202",
+                    "y": "0.1228",
+                    "z": "-0.0456",
+                    "rx": "180.00",
+                    "ry": "0.00",
+                    "rz": "0.00",
+                    "canvasheight": "256",
+                    "canvaswidth": "256",
+                    "billboard": "true"
+                  },
+                  "name": "twx-dt-sensor",
+                  "children": [
+                    {
+                      "name": "twx-container-content"
+                    }
+                  ]
+                },
+                {
+                  "attributes": {
+                    "twx-widget": "",
+                    "widget-id": "3DGauge-3",
+                    "state-format-value": "text",
+                    "widget-name": "3DGauge-3",
+                    "is-widget-container": "true",
+                    "src": "Default/vu_gauge1.svg",
+                    "fontsize": "80px",
+                    "textattrs": "fill:rgba(255, 255, 255, 1);textbaseline:middle;textalign:center",
+                    "textx": "128",
+                    "texty": "188",
+                    "scale": "1.0000",
+                    "x": "-1.0948",
+                    "y": "0.1224",
+                    "z": "0.0000",
+                    "rx": "180.00",
+                    "ry": "0.00",
+                    "rz": "0.00",
+                    "canvasheight": "256",
+                    "canvaswidth": "256",
+                    "billboard": "true"
+                  },
+                  "name": "twx-dt-sensor",
+                  "children": [
+                    {
+                      "name": "twx-container-content"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "twx-fragment-parameters"
+    },
+    {
+      "name": "twx-view-data"
+    }
+  ],
+  "name": "twx-view"
+}

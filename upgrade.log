@@ -1,0 +1,22 @@
+[2023-02-10T19:09:48.004Z] debug: [twx-studio:upgrade:Advanced_AR_Experience_Prototype] Begin upgrade of project
+[2023-02-10T19:09:48.004Z] info: [twx-studio:upgrade:Advanced_AR_Experience_Prototype] Upgrading project
+[2023-02-10T19:09:48.023Z] debug: [twx-studio:upgrade:Advanced_AR_Experience_Prototype] Make sure there are not any stale files lying around
+[2023-02-10T19:09:48.025Z] debug: [twx-studio:upgrade:Advanced_AR_Experience_Prototype] Create .gitignore for project dir
+[2023-02-10T19:09:48.025Z] debug: [twx-studio:upgrade:Advanced_AR_Experience_Prototype] Copying /src/**/* to project, overwrite=false
+[2023-02-10T19:09:48.026Z] debug: [twx-studio:upgrade:Advanced_AR_Experience_Prototype] Copying /**/* to project, skip /src/**/*,  overwrite=true
+[2023-02-10T19:09:48.077Z] debug: [twx-studio:upgrade:Advanced_AR_Experience_Prototype] Copy of project files complete
+[2023-02-10T19:09:48.077Z] debug: [twx-studio:upgrade:Advanced_AR_Experience_Prototype] Updating version to 
+[2023-02-10T19:09:48.077Z] debug: [twx-studio:upgrade:Advanced_AR_Experience_Prototype] Copying project specific default resources.
+[2023-02-10T19:09:48.148Z] debug: [twx-studio:upgrade:Advanced_AR_Experience_Prototype] onupgrade sucessful, now build the project
+[2023-02-10T19:09:48.148Z] debug: [twx-studio:upgrade:Advanced_AR_Experience_Prototype] BEGIN buildApp
+[2023-02-10T19:09:48.148Z] debug: [twx-studio:upgrade:Advanced_AR_Experience_Prototype] write settings
+[2023-02-10T19:09:48.149Z] debug: [twx-studio:upgrade:Advanced_AR_Experience_Prototype] copy runtime extensions
+[2023-02-10T19:09:48.587Z] debug: [twx-studio:upgrade:Advanced_AR_Experience_Prototype] packageThemeSet
+[2023-02-10T19:09:48.985Z] debug: [twx-studio:upgrade:Advanced_AR_Experience_Prototype] onBuild
+[2023-02-10T19:09:48.985Z] info: [twx-studio:upgrade:Advanced_AR_Experience_Prototype] Building ves-ar-extension app:
+[2023-02-10T19:09:49.050Z] debug: [twx-studio:upgrade:Advanced_AR_Experience_Prototype] pathDir
+[2023-02-10T19:09:49.050Z] debug: [twx-studio:upgrade:Advanced_AR_Experience_Prototype] scaffoldDir
+[2023-02-10T19:09:49.050Z] debug: [twx-studio:upgrade:Advanced_AR_Experience_Prototype] copySrc
+[2023-02-10T19:09:49.158Z] debug: [twx-studio:upgrade:Advanced_AR_Experience_Prototype] buildApp
+[2023-02-10T19:09:49.280Z] debug: [twx-studio:upgrade:Advanced_AR_Experience_Prototype] END buildApp
+[2023-02-10T19:09:49.280Z] debug: [twx-studio:upgrade:Advanced_AR_Experience_Prototype] Build succeeded.

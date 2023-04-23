@@ -1,0 +1,62 @@
+{
+  "name": "",
+  "version": "1.0.0",
+  "requires": [
+    "holographic"
+  ],
+  "experiences": [
+    {
+      "vumark": "",
+      "experienceType": "none",
+      "id": 1,
+      "index-keys": [],
+      "title": {
+        "en": "Advanced AR Experience Prototype"
+      },
+      "description": {
+        "en": "",
+        "en-US": ""
+      },
+      "requires": [
+        "AR-tracking"
+      ],
+      "tags": [],
+      "icon": "",
+      "viewName": "Home",
+      "url-template": "index.html?expId=1",
+      "entryPoint": "index.html?expId=1",
+      "thumbnail": "",
+      "thingTemplateName": ""
+    }
+  ],
+  "widgetsUsage": [
+    {
+      "timestamp": "2023-02-11T00:09:28.146Z",
+      "action": "PUBLISH",
+      "usage": {
+        "twx-view": 1,
+        "twx-dt-view": 1,
+        "twx-dt-model": 1,
+        "twx-dt-3dvideo": 1,
+        "twx-dt-image": 2,
+        "twx-dt-label": 1
+      }
+    },
+    {
+      "timestamp": "2023-03-03T01:03:46.901Z",
+      "action": "LATEST_SAVE",
+      "usage": {
+        "twx-view": 1,
+        "twx-dt-view": 1,
+        "twx-dt-model": 1,
+        "twx-dt-3dvideo": 1,
+        "twx-dt-label": 3,
+        "twx-dt-image": 12,
+        "twx-dt-wayfinder": 1,
+        "twx-dt-sensor": 3
+      }
+    }
+  ],
+  "accessType": "private",
+  "designedfor": []
+}

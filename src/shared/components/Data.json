@@ -1,0 +1,205 @@
+{
+  "attributes": {
+    "namespace": "app.mdl"
+  },
+  "children": [
+    {
+      "attributes": {
+        "name": "ExperienceManager",
+        "twx-entity-type": "Things",
+        "twx-entity-name": "ExperienceManager"
+      },
+      "name": "twx-model",
+      "children": [
+        {
+          "attributes": {
+            "name": "CurrentStep",
+            "twx-auto-refresh": "true",
+            "twx-model": "app.mdl[\"ExperienceManager\"].properties[\"CurrentStep\"]"
+          },
+          "name": "twx-model-property"
+        },
+        {
+          "attributes": {
+            "name": "HelpBool",
+            "twx-auto-refresh": "true",
+            "twx-model": "app.mdl[\"ExperienceManager\"].properties[\"HelpBool\"]"
+          },
+          "name": "twx-model-property"
+        }
+      ]
+    },
+    {
+      "attributes": {
+        "id": "vumark",
+        "isbound": "false",
+        "isdeletable": "false",
+        "name": "ThingMark",
+        "value": ""
+      },
+      "name": "twx-app-param"
+    },
+    {
+      "attributes": {
+        "id": "template",
+        "isbound": "false",
+        "isdeletable": "false",
+        "name": "Thing Template",
+        "value": ""
+      },
+      "name": "twx-app-param"
+    },
+    {
+      "attributes": {
+        "id": "thing",
+        "isbound": "false",
+        "isdeletable": "false",
+        "name": "Thing",
+        "value": ""
+      },
+      "name": "twx-app-param"
+    },
+    {
+      "attributes": {
+        "id": "currentStep",
+        "isbound": "false",
+        "isdeletable": "true",
+        "name": "currentStep",
+        "value": ""
+      },
+      "name": "twx-app-param",
+      "children": [
+        {
+          "attributes": {
+            "databind-id": "db-1676073362471",
+            "source-type": "data",
+            "source-name": "ExperienceManager",
+            "source-item-type": "property",
+            "source-item-name": "CurrentStep",
+            "binding-type": "property_field",
+            "from-expression": "app.mdl['ExperienceManager'].properties['CurrentStep']",
+            "to-property": "app.params['currentStep']"
+          },
+          "name": "twx-databind"
+        }
+      ]
+    },
+    {
+      "attributes": {
+        "id": "stepTitle",
+        "isbound": "false",
+        "isdeletable": "true",
+        "name": "stepTitle",
+        "value": ""
+      },
+      "name": "twx-app-param"
+    },
+    {
+      "attributes": {
+        "id": "helpBool",
+        "isbound": "false",
+        "isdeletable": "true",
+        "name": "helpBool",
+        "value": ""
+      },
+      "name": "twx-app-param",
+      "children": [
+        {
+          "attributes": {
+            "databind-id": "db-1676422060450",
+            "source-type": "data",
+            "source-name": "ExperienceManager",
+            "source-item-type": "property",
+            "source-item-name": "HelpBool",
+            "binding-type": "property_field",
+            "from-expression": "app.mdl['ExperienceManager'].properties['HelpBool']",
+            "to-property": "app.params['helpBool']"
+          },
+          "name": "twx-databind"
+        }
+      ]
+    },
+    {
+      "attributes": {
+        "name": "doubletap",
+        "isdeletable": "false",
+        "isvoicealiasable": "true"
+      },
+      "name": "twx-app-event",
+      "children": [
+        {
+          "attributes": {
+            "eventbind-id": "eb-1676501573183",
+            "source-type": "event",
+            "source-label": "Application Event",
+            "source-name": "app",
+            "source-event": "doubletap",
+            "handler-type": "ui",
+            "handler-name": "model-1",
+            "handler-service": "playAll",
+            "handler-path": "app.view[\"Home\"].wdg[\"model-1\"].svc.playAll"
+          },
+          "name": "twx-eventbind"
+        }
+      ]
+    },
+    {
+      "attributes": {
+        "name": "swipeleft",
+        "isdeletable": "false",
+        "isvoicealiasable": "true"
+      },
+      "name": "twx-app-event"
+    },
+    {
+      "attributes": {
+        "name": "swiperight",
+        "isdeletable": "false",
+        "isvoicealiasable": "true"
+      },
+      "name": "twx-app-event"
+    },
+    {
+      "attributes": {
+        "name": "swipeforward",
+        "isdeletable": "false",
+        "isvoicealiasable": "true"
+      },
+      "name": "twx-app-event"
+    },
+    {
+      "attributes": {
+        "name": "swipeback",
+        "isdeletable": "false",
+        "isvoicealiasable": "true"
+      },
+      "name": "twx-app-event"
+    },
+    {
+      "attributes": {
+        "name": "swipeup",
+        "isdeletable": "false",
+        "isvoicealiasable": "true"
+      },
+      "name": "twx-app-event"
+    },
+    {
+      "attributes": {
+        "name": "hold",
+        "isdeletable": "false",
+        "isvoicealiasable": "true"
+      },
+      "name": "twx-app-event"
+    },
+    {
+      "attributes": {
+        "name": "stopscan",
+        "isdeletable": "false",
+        "isvoicealiasable": "true",
+        "voicealias": "Stop Scan"
+      },
+      "name": "twx-app-event"
+    }
+  ],
+  "name": "twx-app-mdl"
+}
